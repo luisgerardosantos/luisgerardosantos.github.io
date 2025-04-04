@@ -1,0 +1,437 @@
+current directory: /Users/gerapio/Repositorios/resume-template/_vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/bin/ruby -I /Users/gerapio/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20250403-5785-1468j3m.rb extconf.rb
+creating Makefile
+
+current directory: /Users/gerapio/Repositorios/resume-template/_vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/gerapio/Repositorios/resume-template/_vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+ruby_http_parser.c:473:11: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  473 |   Icall = rb_intern("call");
+      |           ^~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+ruby_http_parser.c:473:11: note: '{' token is here
+  473 |   Icall = rb_intern("call");
+      |           ^~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+ruby_http_parser.c:473:11: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  473 |   Icall = rb_intern("call");
+      |           ^~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+ruby_http_parser.c:473:11: note: ')' token is here
+  473 |   Icall = rb_intern("call");
+      |           ^~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+ruby_http_parser.c:474:23: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  474 |   Ion_message_begin = rb_intern("on_message_begin");
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+ruby_http_parser.c:474:23: note: '{' token is here
+  474 |   Ion_message_begin = rb_intern("on_message_begin");
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+ruby_http_parser.c:474:23: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  474 |   Ion_message_begin = rb_intern("on_message_begin");
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+ruby_http_parser.c:474:23: note: ')' token is here
+  474 |   Ion_message_begin = rb_intern("on_message_begin");
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+ruby_http_parser.c:475:26: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  475 |   Ion_headers_complete = rb_intern("on_headers_complete");
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+ruby_http_parser.c:475:26: note: '{' token is here
+  475 |   Ion_headers_complete = rb_intern("on_headers_complete");
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+ruby_http_parser.c:475:26: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  475 |   Ion_headers_complete = rb_intern("on_headers_complete");
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+ruby_http_parser.c:475:26: note: ')' token is here
+  475 |   Ion_headers_complete = rb_intern("on_headers_complete");
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+ruby_http_parser.c:476:14: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  476 |   Ion_body = rb_intern("on_body");
+      |              ^~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+ruby_http_parser.c:476:14: note: '{' token is here
+  476 |   Ion_body = rb_intern("on_body");
+      |              ^~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+ruby_http_parser.c:476:14: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  476 |   Ion_body = rb_intern("on_body");
+      |              ^~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+ruby_http_parser.c:476:14: note: ')' token is here
+  476 |   Ion_body = rb_intern("on_body");
+      |              ^~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+ruby_http_parser.c:477:26: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  477 |   Ion_message_complete = rb_intern("on_message_complete");
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+ruby_http_parser.c:477:26: note: '{' token is here
+  477 |   Ion_message_complete = rb_intern("on_message_complete");
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+ruby_http_parser.c:477:26: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  477 |   Ion_message_complete = rb_intern("on_message_complete");
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+ruby_http_parser.c:477:26: note: ')' token is here
+  477 |   Ion_message_complete = rb_intern("on_message_complete");
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+ruby_http_parser.c:478:18: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  478 |   Sstop = ID2SYM(rb_intern("stop"));
+      |                  ^~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:478:18: note: '{' token is here
+  478 |   Sstop = ID2SYM(rb_intern("stop"));
+      |                  ^~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:478:18: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  478 |   Sstop = ID2SYM(rb_intern("stop"));
+      |                  ^~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:478:18: note: ')' token is here
+  478 |   Sstop = ID2SYM(rb_intern("stop"));
+      |                  ^~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:479:19: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  479 |   Sreset = ID2SYM(rb_intern("reset"));
+      |                   ^~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:479:19: note: '{' token is here
+  479 |   Sreset = ID2SYM(rb_intern("reset"));
+      |                   ^~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:479:19: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  479 |   Sreset = ID2SYM(rb_intern("reset"));
+      |                   ^~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:479:19: note: ')' token is here
+  479 |   Sreset = ID2SYM(rb_intern("reset"));
+      |                   ^~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:481:20: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  481 |   Sarrays = ID2SYM(rb_intern("arrays"));
+      |                    ^~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:481:20: note: '{' token is here
+  481 |   Sarrays = ID2SYM(rb_intern("arrays"));
+      |                    ^~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:481:20: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  481 |   Sarrays = ID2SYM(rb_intern("arrays"));
+      |                    ^~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:481:20: note: ')' token is here
+  481 |   Sarrays = ID2SYM(rb_intern("arrays"));
+      |                    ^~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:482:21: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  482 |   Sstrings = ID2SYM(rb_intern("strings"));
+      |                     ^~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:482:21: note: '{' token is here
+  482 |   Sstrings = ID2SYM(rb_intern("strings"));
+      |                     ^~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:482:21: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  482 |   Sstrings = ID2SYM(rb_intern("strings"));
+      |                     ^~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:482:21: note: ')' token is here
+  482 |   Sstrings = ID2SYM(rb_intern("strings"));
+      |                     ^~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:483:19: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  483 |   Smixed = ID2SYM(rb_intern("mixed"));
+      |                   ^~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:23: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                       ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:483:19: note: '{' token is here
+  483 |   Smixed = ID2SYM(rb_intern("mixed"));
+      |                   ^~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1832:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1832 |     {                                                   \
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:483:19: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  483 |   Smixed = ID2SYM(rb_intern("mixed"));
+      |                   ^~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:24: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1837:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+ 1837 |     }
+      |     ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+ruby_http_parser.c:483:19: note: ')' token is here
+  483 |   Smixed = ID2SYM(rb_intern("mixed"));
+      |                   ^~~~~~~~~~~~~~~~~~
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:1847:56: note: expanded from macro 'rb_intern'
+ 1847 |         __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+      |                                                        ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:414:29: note: expanded from macro 'ID2SYM'
+  414 | #define ID2SYM(x) RB_ID2SYM(x)
+      |                             ^
+/Users/gerapio/.rvm/rubies/ruby-2.7.2/include/ruby-2.7.0/ruby/ruby.h:409:33: note: expanded from macro 'RB_ID2SYM'
+  409 | #define RB_ID2SYM(x) (rb_id2sym(x))
+      |                                 ^
+20 warnings generated.
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/gerapio/Repositorios/resume-template/_vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20250403-5785-1gnbkuj

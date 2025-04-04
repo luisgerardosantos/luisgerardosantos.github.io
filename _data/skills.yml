@@ -1,0 +1,16 @@
+# Habilidades
+- skill: Lenguajes de programación
+  description: Javascript, Typescript, ASP .NET MVC (C#), PHP, SQL
+
+- skill: Frameworks y librerías
+  description: React.js, Vue.js, Node.js, Bootstrap, Materialize, Primevue
+
+- skill: Control de versiones y colaboración
+  description: Git, SVN, BitBucket, Jira, Confluence
+
+- skill: Metodología de desarrollo
+  description: Scrum como metodología agile
+
+- skill: Pruebas unitarias
+  description: Jest
+

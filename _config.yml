@@ -1,0 +1,66 @@
+# Site settings
+title: "Currículum de Gerardo Santos"
+description: "Ingeniero de software"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Luis Gerardo Santos Miranda"
+resume_title:                   "Ingeniero de software"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "luisgerardosantos.m@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "444-318-9483"
+resume_contact_address:         "San Luis Potosí, S.L.P."
+
+resume_header_contact_info:     "luisgerardosantos.m@gmail.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>Con una formación sólida en la Universidad Autónoma de San Luis Potosí y con más de seis años de experiencia, mi objetivo profesional es integrar soluciones tecnológicas de vanguardia que impulsen la eficiencia y optimicen los procesos de negocio.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        false
+resume_section_skills:          true
+resume_section_soft:            true
+resume_section_recognition:     true
+resume_section_links:           false
+resume_section_associations:    false
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_phone_url:             "444-318-9483"
+  resume_email_url:             "luisgerardosantos.m@gmail.com"
+  resume_github_url:            "https://github.com/luisgerardosantos"
+  # resume_twitter_url:           "http://twitter.com/jglovier"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/luisgerardosantos"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  # resume_website_url:           "http://joelglovier.com"
+  # resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
