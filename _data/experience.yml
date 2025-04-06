@@ -15,7 +15,7 @@
               <li>
                   <b>FedEx Tracking Tool</b><br />
                   Implementé un sistema administrador de historial de envíos y comprobantes de entrega de la paquetería FedEx.<br />
-                  Este sistema se desarrolló con la tecnología .NET Framework (C#) con metodología MVC e integrando los Web Services de FedEx para obtener la información de los envíos realizados con la paquetería.
+                  Este sistema se desarrolló con la tecnología .NET Framework (C#) con metodología MVC e integrando los Web Services de FedEx para obtener la información de los envíos realizados.
               </li>
               
               <li>
