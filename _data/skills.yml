@@ -1,9 +1,9 @@
 # Habilidades
 - skill: Lenguajes de programación
-  description: Javascript, Typescript, ASP .NET MVC (C#), PHP, SQL
+  description: Javascript, Typescript, C#, PHP, SQL
 
 - skill: Frameworks y librerías
-  description: React.js, Vue.js, Node.js, Bootstrap, Materialize, Primevue
+  description: React.js, Vue.js, Node.js, .NET Framework, .NET Core, Google Cloud Plataform
 
 - skill: Control de versiones y colaboración
   description: Git, SVN, BitBucket, Jira, Confluence
