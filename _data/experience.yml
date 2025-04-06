@@ -21,7 +21,7 @@
               <li>
                   <b>Allocation</b><br />
                   Integré un módulo en la intranet para administrar el tiempo invertido por los recursos del área de sistemas, así como vacaciones, días personales e incapacidades.<br />
-                  Para este solución se utilizó Vue.js versión 2 como framework de desarrollo y se usaron los métodos del API proporcionados por el equipo de backend.
+                  Para esta solución se utilizó Vue.js versión 2 como framework de desarrollo y se usaron los métodos del API proporcionados por el equipo de backend.
               </li>
               
               <li>
