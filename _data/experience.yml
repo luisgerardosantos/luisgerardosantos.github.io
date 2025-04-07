@@ -1,37 +1,34 @@
 # Jobs
 
-# Software Enginner I
+# Software Engineer I
 - company: TBC de México
-  position: Software Enginner
+  position: Software Engineer
   duration:  Abr 2018 &mdash; Feb 2025
   summary: 'Responsable de crear soluciones tecnológicas para mejorar y automatizar los procesos del negocio, asegurando la calidad del software mediante tests automatizados y buenas prácticas de desarrollo y usando scrum como metodología de trabajo colaborativo.
             <ul class="resume-item-list">
-              <li>
+              <li class="resume-item-list-item">
                   <b>Google Cloud Functions</b><br />
-                  Participé en la creación y actualización de funciones en Google Cloud para la principal plataforma de ventas. <br />
-                  Google Cloud brindo seguridad al sistema gracias a su servicio IAM (Identity and Access Management) que permite controlar quién puede invocar las funciones.<br /> 
-                  Estas funciones fueron construidas con Javascript y desplegadas mediante Bitbucket.
+                  Participación en la creación y soporte de funciones en Google Cloud para la principal plataforma de ventas (TBC Online).<br />
+                  Google Cloud ofrece seguridad al sistema gracias a su servicio IAM que permite controlar quién puede invocar las funciones, mismas que fueron construidas en Javascript y desplegadas mediante Bitbucket.
               </li>
-              <li>
-                  <b>FedEx Tracking Tool</b><br />
-                  Implementé un sistema administrador de historial de envíos y comprobantes de entrega de la paquetería FedEx.<br />
-                  Este sistema se desarrolló con la tecnología .NET Framework (C#) con metodología MVC e integrando los Web Services de FedEx para obtener la información de los envíos realizados.
+              <li class="resume-item-list-item">
+                  <b>Herramienta de seguimiento FedEx</b><br />
+                  Implementación de un sistema administrador de historial de envíos y comprobantes de entrega de la paquetería FedEx, así como la creación de etiquetas.<br />
+                  Este sistema se desarrolló con la tecnología .NET Framework con arquitectura MVC e integrando los Web Services de FedEx para obtener la información de los envíos realizados.
               </li>
-              
-              <li>
+              <li class="resume-item-list-item">
                   <b>Allocation</b><br />
-                  Integré un módulo en la intranet para administrar el tiempo invertido por los recursos del área de sistemas, así como vacaciones, días personales e incapacidades.<br />
+                  Integración de un módulo para administrar el tiempo invertido por los recursos del área de sistemas, así como vacaciones, días personales e incapacidades.<br />
                   Para esta solución se utilizó Vue.js versión 2 como framework de desarrollo y se usaron los métodos del API proporcionados por el equipo de backend.
               </li>
-              
-              <li>
-                  <b>NEXEN MX</b><br />
-                  Desarrollé en su totalidad la versión actualizada y mejorada del sitio oficial de Nexen para México (nexen.mx) siendo este, un importante aliado comercial.<br />
+              <li class="resume-item-list-item">
+                  <b>Nexen.mx</b><br />
+                  Construcción de la versión actualizada y mejorada del sitio oficial de Nexen para México, siendo este, un importante aliado comercial.<br />
                   Tuve la oportunidad de elegir la tecnología para codificación, siendo Vue.js en su versión 3 con Composition API mi elección.
               </li>
-              <li>
+              <li class="resume-item-list-item">
                   <b>Inventario de Proveedores</b><br />
-                  Programé aplicaciones de consola para automatizar el proceso de carga de inventarios de proveedores al sistema.<br />
+                  Desarrollo de aplicaciones de consola para automatizar el proceso de carga de inventarios de proveedores al sistema.<br />
                   La tecnología que seleccioné para esta solución fue .NET Core y usamos tareas programadas para ejecutarlas cada determinado tiempo.  
               </li>
               

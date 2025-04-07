@@ -1,5 +1,6 @@
 # Degree
-- degree: Ingeniero en Informática
-  uni: Universidad Autónoma de San Luis Potosí
+- uni: Universidad Autónoma de San Luis Potosí
+  degree: Ingeniero en Informática
   year: 2011 &mdash; 2017
-  summary: 'Número de Cédula Profesional: 14690363<br />Programa impartido por la facultad de Ingeniería.'
+  id: '<b>Cédula Profesional:</b> 14690363'
+  summary: '<p>Programa impartido por la facultad de Ingeniería.</p>'
