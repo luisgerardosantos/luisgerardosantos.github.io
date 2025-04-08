@@ -13,23 +13,23 @@
               </li>
               <li class="resume-item-list-item">
                   <b>Herramienta de seguimiento FedEx</b><br />
-                  Implementación de un sistema administrador de historial de envíos y comprobantes de entrega de la paquetería FedEx, así como la creación de etiquetas.<br />
+                  Implementación de sistema administrador de historial de envíos y comprobantes de entrega de la paquetería FedEx, así como la creación de etiquetas.<br />
                   Este sistema se desarrolló con la tecnología .NET Framework con arquitectura MVC e integrando los Web Services de FedEx para obtener la información de los envíos realizados.
               </li>
               <li class="resume-item-list-item">
                   <b>Allocation</b><br />
                   Integración de un módulo para administrar el tiempo invertido por los recursos del área de sistemas, así como vacaciones, días personales e incapacidades.<br />
-                  Para esta solución se utilizó Vue.js versión 2 como framework de desarrollo y se usaron los métodos del API proporcionados por el equipo de backend.
+                  Para esta solución se utilizó Vue.js versión 2 como framework de desarrollo y se usaron los métodos del API proporcionados por el equipo interno de backend.
               </li>
               <li class="resume-item-list-item">
                   <b>Nexen.mx</b><br />
                   Construcción de la versión actualizada y mejorada del sitio oficial de Nexen para México, siendo este, un importante aliado comercial.<br />
-                  Tuve la oportunidad de elegir la tecnología para codificación, siendo Vue.js en su versión 3 con Composition API mi elección.
+                  Tuve la oportunidad de elegir la tecnología siendo Vue.js versión 3 mi elección.
               </li>
               <li class="resume-item-list-item">
                   <b>Inventario de Proveedores</b><br />
                   Desarrollo de aplicaciones de consola para automatizar el proceso de carga de inventarios de proveedores al sistema.<br />
-                  La tecnología que seleccioné para esta solución fue .NET Core y usamos tareas programadas para ejecutarlas cada determinado tiempo.  
+                  La tecnología seleccionada para esta solución fue .NET Core y se usaron tareas programadas para ejecutarlas cada determinado tiempo.  
               </li>
               
             </ul>'
